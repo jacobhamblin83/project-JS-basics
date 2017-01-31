@@ -89,8 +89,8 @@ alert(newMyName());
 
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
-function outerFn(){
-  return myName;
+function outerFn(newMyName){
+  return name;
 }
 
   //Code Here
